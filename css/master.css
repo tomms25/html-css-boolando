@@ -37,3 +37,28 @@ header{
 .item{
     color: white;
 }
+
+
+
+/* Footer */
+
+footer{
+    height: 70px;
+    max-width: 1500px;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.last-informations{
+    height: 70px;
+    background-color: red;
+    margin: 0 150px 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    
+}
+
+
+
