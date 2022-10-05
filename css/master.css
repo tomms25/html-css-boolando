@@ -51,7 +51,7 @@ footer{
 
 .last-informations{
     height: 70px;
-    background-color: red;
+    /* background-color: red; */
     margin: 0 150px 0 150px;
     display: flex;
     justify-content: space-between;
@@ -59,6 +59,27 @@ footer{
     font-size: 15px;
     
 }
+
+
+.vaious-informations{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a+a{
+    margin: 0 3px 0 3px;
+}
+
+i+i{
+    margin: 5px 5px 0 5px;
+}
+
+
 
 
 
