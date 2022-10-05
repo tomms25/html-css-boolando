@@ -23,3 +23,17 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
+.generi{
+    color: white;
+}
+
+
+.b-logo{
+    height: 25px;
+    margin-right: 100px;
+}
+
+.item{
+    color: white;
+}
