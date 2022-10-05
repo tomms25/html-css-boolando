@@ -69,6 +69,7 @@ main{
     /* background-color: aqua; */
     margin: 0 5px;
     position: relative;
+    cursor: pointer;
     
 }
 
@@ -135,6 +136,21 @@ main{
     left: 0;
     
 }
+
+.hd-item{
+    height: 380px;
+    width: 290px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.product:hover .hd-item{
+    display: inline-block;
+}
+
+
 
 
 /* Footer */
