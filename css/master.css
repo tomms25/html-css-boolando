@@ -100,10 +100,40 @@ main{
     margin-left: 1px;
 }
 
-.label{
+.label1{
     position: absolute;
-    background-color: green;
-    font-size: 20px;
+    background-color: #ff0000;
+    font-size: 14px;
+    padding: 2px 5px;
+    color:white;
+    z-index: 10;
+    bottom: 20px;
+    left: 0;
+    
+}
+
+.label2{
+    position: absolute;
+    background-color: #048105;
+    font-size: 14px;
+    padding: 2px 10px;
+    color:white;
+    z-index: 10;
+    bottom: 20px;
+    left: 50px;
+    
+}
+
+.label3{
+    position: absolute;
+    background-color: #048105;
+    font-size: 14px;
+    padding: 2px 10px;
+    color:white;
+    z-index: 10;
+    bottom: 20px;
+    left: 0;
+    
 }
 
 
