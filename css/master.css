@@ -40,6 +40,26 @@ header{
 
 
 
+
+/* Corpo centrale e foto */
+
+main{
+    height: 1000px;
+    max-width: 1500px;
+}
+
+.row{
+    height: 380px;
+    max-width: 1500px;
+    margin: 60px 180px 120px 180px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
 /* Footer */
 
 footer{
