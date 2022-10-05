@@ -144,6 +144,7 @@ main{
     position: absolute;
     top: 0;
     display: none;
+    
 }
 
 .product:hover .hd-item{
