@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 header{
     background-color: #ff6900;
@@ -13,7 +16,7 @@ header{
 
 .header-command{
     height: 60px;
-    max-width: 1500px;
+    width: 932px;
     margin: 0 150px 0 150px;
 
     /* DEBUG */
@@ -26,6 +29,7 @@ header{
 
 .generi{
     color: white;
+    margin-left: 34px;
 }
 
 
@@ -52,11 +56,54 @@ main{
     height: 380px;
     max-width: 1500px;
     margin: 60px 180px 120px 180px;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+}
+
+.product{
+    height: 380px;
+    width: 300px;
+    /* background-color: aqua; */
+    margin: 0 5px;
+    position: relative;
+    
+}
+
+.img-product{
+    height: 380px;
+    width: 290px;
+    object-fit: cover;
+}
+
+.brand{
+    font-size: 12px;
+}
+
+.brand-item{
+    font-size: 15px;
+}
+
+.price{
+    font-size: 12px;
+    color: red;
+}
+
+.price-crossed{
+    text-decoration: line-through;
+    color: black;
+}
+
+.euro{
+    margin-left: 1px;
+}
+
+.label{
+    position: absolute;
+    background-color: green;
+    font-size: 20px;
 }
 
 
@@ -72,7 +119,7 @@ footer{
 .last-informations{
     height: 70px;
     /* background-color: red; */
-    margin: 0 150px 0 150px;
+    margin: 0 185px 0 184px;
     display: flex;
     justify-content: space-between;
     align-items: center;
