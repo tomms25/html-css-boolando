@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: #ff6900;
+    height: 60px;
+    max-width: 1500px;
+}
+
+.header-command{
+    height: 60px;
+    max-width: 1500px;
+    margin: 0 150px 0 150px;
+
+    /* DEBUG */
+    /* background-color: white; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
